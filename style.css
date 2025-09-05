@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Consolas';
+  src: url('fonts/consolas.woff2') format('woff2'),url('fonts/consolas.woff') format('woff');
+}
+
+body{
+    background-color: black;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 13vw;
+    height: 100vh;
+    background: #333;
+    color: rgb(255, 255, 0);
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    flex: 1;
+    padding: 0px;
+    background: #000;
+    font-family: Consolas, monospace;
+    font-size: 2vw;
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #fff;
+}
+
+comic{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: rgb(0, 0, 255);
+}
+
+li{
+    list-style-type: none;
+}
