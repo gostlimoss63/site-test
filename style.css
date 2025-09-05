@@ -10,21 +10,29 @@ body{
 
 .container {
     display: flex;
-    min-height: 100vh;
 }
 
 .sidebar {
-    width: 13vw;
-    height: 100vh;
+    width: 15vw;
+    height: 89.7vh;
     background: #333;
     color: rgb(255, 255, 0);
-    padding: 10px;
+    padding: 1px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.footer {
+    width: 99.9vw;
+    height: 10vh;
+    background: #555;
+    color: rgb(0, 255, 255);
+    padding: 1px;
     text-align: center;
 }
 
 .content {
-    flex: 1;
-    padding: 0px;
+    padding: 1px;
     background: #000;
     font-family: Consolas, monospace;
     font-size: 2vw;
@@ -34,8 +42,8 @@ body{
 
 a{
     text-decoration: none;
-    font-size: 20px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.5vh;
+    font-family: "Arial", monospace;
     color: #fff;
 }
 
